@@ -40,5 +40,6 @@ modules:
   - type: script
     scripts:
       # this sets up the proper policy & signing files for signed images to work
+      - zerotier.sh
       - signing.sh
       - tlp_post_install.sh
